@@ -1,2 +1,3 @@
 # HowTo
-this the Projeck as though on Udemy in Javascript BootCamp by Mr. Mead
+this is Projrok as taugh on Udemy for the course Javascript BootCamp by Mr. Andrew Mead
+Updated code till Lecture 88 Object Oriented Programming
