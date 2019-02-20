@@ -1,0 +1,119 @@
+29 Jan 2019 17:09:12 main.DeleteMCR-******************Main STARTs****************
+29 Jan 2019 17:09:12 main.DeleteMCR-Parameters Fetched via config.properties: [DeletionStatus, CE_URI, CM_PASSWORD, CM_USERID, SQLQuery, CM_STANZA, CM_TARGETOS]
+29 Jan 2019 17:09:12 main.DeleteMCR-####### Actual Deletion Mode is DISABLE #######
+29 Jan 2019 17:09:12 filenet_error.api.com.filenet.apiimpl.util.J2EEUtil-The code has NOT detected a need to introduce specific application server logic and is defaulting to using standard J2EE calls
+29 Jan 2019 17:09:13 main.DeleteMCR-Searching Cases in: CMTOS
+29 Jan 2019 17:09:13 main.DeleteMCR-SQL Query: SELECT t.[This],t.[FolderName], t.[LastModifier], t.[DateLastModified], t.[CmAcmCaseTypeFolder], t.[CmAcmCaseState],t.[CmAcmCaseIdentifier], t.[DateCreated], t.[Creator], t.[Id], t.[ContainerType],t.[LockToken], t.[LockTimeout], t.[ClassDescription], t.[DateLastModified], t.[FolderName] FROM [COM_MonthlyComplianceReporting] t where t.[DateCreated] > 2019-01-01 AND t.[DateCreated] < 2019-02-01
+29 Jan 2019 17:09:13 main.DeleteMCR-rowSet.isEmpty(): false
+29 Jan 2019 17:09:13 main.DeleteMCR-Received Task Details:  ID: {CDB328EB-0086-C054-8DA3-681744D00001} | Name: EmailNotification | Task State: READY
+29 Jan 2019 17:09:13 main.DeleteMCR-Received Task Details:  ID: {9E52F9EF-09A8-CB31-8234-681744D00001} | Name: Monthly Reporting | Task State: COMPLETE
+29 Jan 2019 17:09:13 main.DeleteMCR-Received Task Details:  ID: {91706ACD-94E4-C317-A946-681760B00000} | Name: EmailNotification | Task State: READY
+29 Jan 2019 17:09:13 main.DeleteMCR-Received Task Details:  ID: {212A389D-6CE0-C7BA-9C03-681760B00000} | Name: Monthly Reporting | Task State: COMPLETE
+29 Jan 2019 17:09:13 main.DeleteMCR-Received Task Details:  ID: {3834DB44-B911-CC86-A022-681760B00002} | Name: EmailNotification | Task State: READY
+29 Jan 2019 17:09:13 main.DeleteMCR-Received Task Details:  ID: {48336F95-4FA9-CF2B-95F9-681760B00002} | Name: Monthly Reporting | Task State: COMPLETE
+29 Jan 2019 17:09:13 main.DeleteMCR-Received Task Details:  ID: {7A614616-1870-CF55-993C-681760B00004} | Name: EmailNotification | Task State: READY
+29 Jan 2019 17:09:13 main.DeleteMCR-Received Task Details:  ID: {5966F982-EF53-C201-8F5E-681760B00004} | Name: Monthly Reporting | Task State: COMPLETE
+29 Jan 2019 17:09:13 main.DeleteMCR-Received Task Details:  ID: {94D4CEFE-D128-C872-B713-685607A00000} | Name: EmailNotification | Task State: READY
+29 Jan 2019 17:09:13 main.DeleteMCR-Received Task Details:  ID: {EECC4C9A-0F45-C5F9-A8BF-685607A00000} | Name: Monthly Reporting | Task State: WORKING
+29 Jan 2019 17:09:13 main.DeleteMCR-Received Task Details:  ID: {66E8C6A5-B67C-C22E-B20A-685607B00000} | Name: EmailNotification | Task State: READY
+29 Jan 2019 17:09:13 main.DeleteMCR-Received Task Details:  ID: {948E95C8-EACA-C498-A525-685607B00000} | Name: Monthly Reporting | Task State: COMPLETE
+29 Jan 2019 17:09:13 main.DeleteMCR-Received Task Details:  ID: {47557FC6-94A4-CDB3-8A3E-685607B00003} | Name: EmailNotification | Task State: COMPLETE
+29 Jan 2019 17:09:13 main.DeleteMCR-Received Task Details:  ID: {B54A934D-D11F-C00C-BC36-685607B00002} | Name: Monthly Reporting | Task State: COMPLETE
+29 Jan 2019 17:09:13 main.DeleteMCR-Total Task in Received taskTable(HashTable): 14
+29 Jan 2019 17:09:13 main.DeleteMCR-Entering WHILE Loop for Deleting
+29 Jan 2019 17:09:13 main.DeleteMCR-WHILE Loop Ends After Deletion
+29 Jan 2019 17:09:13 main.DeleteMCR-#Summary of Actions#
+29 Jan 2019 17:09:13 main.DeleteMCR-Total Cases Received :7
+29 Jan 2019 17:09:13 main.DeleteMCR-Total Task Received: 14
+29 Jan 2019 17:09:13 main.DeleteMCR-Total Task Deleted : 7
+29 Jan 2019 17:09:13 main.DeleteMCR-Total Task Received for Deletion ID: {212A389D-6CE0-C7BA-9C03-681760B00000} Task Name: Monthly Reporting
+29 Jan 2019 17:09:13 main.DeleteMCR-Total Task Received for Deletion ID: {B54A934D-D11F-C00C-BC36-685607B00002} Task Name: Monthly Reporting
+29 Jan 2019 17:09:13 main.DeleteMCR-Total Task Received for Deletion ID: {91706ACD-94E4-C317-A946-681760B00000} Task Name: Monthly Reporting
+29 Jan 2019 17:09:13 main.DeleteMCR-Total Task Received for Deletion ID: {CDB328EB-0086-C054-8DA3-681744D00001} Task Name: EmailNotification
+29 Jan 2019 17:09:13 main.DeleteMCR-Total Task Received for Deletion ID: {7A614616-1870-CF55-993C-681760B00004} Task Name: EmailNotification
+29 Jan 2019 17:09:13 main.DeleteMCR-Total Task Received for Deletion ID: {948E95C8-EACA-C498-A525-685607B00000} Task Name: Monthly Reporting
+29 Jan 2019 17:09:13 main.DeleteMCR-Total Task Received for Deletion ID: {94D4CEFE-D128-C872-B713-685607A00000} Task Name: EmailNotification
+29 Jan 2019 17:09:13 main.DeleteMCR-
+29 Jan 2019 17:09:13 main.DeleteMCR-Deleted Task Details     : {taskID: ={91706ACD-94E4-C317-A946-681760B00000}, taskName: =EmailNotification, taskSTATE: =READY}
+29 Jan 2019 17:09:13 main.DeleteMCR-Deleted Task Details     : {taskID: ={EECC4C9A-0F45-C5F9-A8BF-685607A00000}, taskName: =Monthly Reporting, taskSTATE: =WORKING}
+29 Jan 2019 17:09:13 main.DeleteMCR-Deleted Task Details     : {taskID: ={CDB328EB-0086-C054-8DA3-681744D00001}, taskName: =EmailNotification, taskSTATE: =READY}
+29 Jan 2019 17:09:13 main.DeleteMCR-Deleted Task Details     : {taskID: ={7A614616-1870-CF55-993C-681760B00004}, taskName: =EmailNotification, taskSTATE: =READY}
+29 Jan 2019 17:09:13 main.DeleteMCR-Deleted Task Details     : {taskID: ={3834DB44-B911-CC86-A022-681760B00002}, taskName: =EmailNotification, taskSTATE: =READY}
+29 Jan 2019 17:09:13 main.DeleteMCR-Deleted Task Details     : {taskID: ={94D4CEFE-D128-C872-B713-685607A00000}, taskName: =EmailNotification, taskSTATE: =READY}
+29 Jan 2019 17:09:13 main.DeleteMCR-Deleted Task Details     : {taskID: ={66E8C6A5-B67C-C22E-B20A-685607B00000}, taskName: =EmailNotification, taskSTATE: =READY}
+29 Jan 2019 17:09:13 main.DeleteMCR-Tip:-To Delete the Task, Task's Lifecycle should be changed to "PROMOTE". Also,Task's Lifecycle can be changed to "PROMOTE" only if TASKSTATE != COMPLETE.
+29 Jan 2019 17:09:13 main.DeleteMCR-******************Main ENDs****************
+29 Jan 2019 17:09:13 main.DeleteMCR-
+30 Jan 2019 10:51:19 main.DeleteMCR-******************Main STARTs****************
+30 Jan 2019 10:51:19 main.DeleteMCR-Parameters Fetched via config.properties: [DeletionStatus, CE_URI, CM_PASSWORD, CM_USERID, SQLQuery, CM_STANZA, CM_TARGETOS]
+30 Jan 2019 10:51:19 main.DeleteMCR-####### Actual Deletion Mode is ENABLE #######
+30 Jan 2019 10:51:22 filenet_error.api.com.filenet.apiimpl.util.J2EEUtil-The code has NOT detected a need to introduce specific application server logic and is defaulting to using standard J2EE calls
+30 Jan 2019 10:51:25 main.DeleteMCR-Searching Cases in: CMTOS
+30 Jan 2019 10:51:25 main.DeleteMCR-SQL Query: SELECT t.[This],t.[FolderName], t.[LastModifier], t.[DateLastModified], t.[CmAcmCaseTypeFolder], t.[CmAcmCaseState],t.[CmAcmCaseIdentifier], t.[DateCreated], t.[Creator], t.[Id], t.[ContainerType],t.[LockToken], t.[LockTimeout], t.[ClassDescription], t.[DateLastModified], t.[FolderName] FROM [COM_MonthlyComplianceReporting] t where t.[DateCreated] > 2019-01-01 AND t.[DateCreated] < 2019-02-01
+30 Jan 2019 10:51:26 main.DeleteMCR-rowSet.isEmpty(): false
+30 Jan 2019 10:51:26 main.DeleteMCR-Received Task Details:  ID: {CDB328EB-0086-C054-8DA3-681744D00001} | Name: EmailNotification | Task State: READY
+30 Jan 2019 10:51:26 main.DeleteMCR-Received Task Details:  ID: {9E52F9EF-09A8-CB31-8234-681744D00001} | Name: Monthly Reporting | Task State: COMPLETE
+30 Jan 2019 10:51:26 main.DeleteMCR-Received Task Details:  ID: {91706ACD-94E4-C317-A946-681760B00000} | Name: EmailNotification | Task State: READY
+30 Jan 2019 10:51:26 main.DeleteMCR-Received Task Details:  ID: {212A389D-6CE0-C7BA-9C03-681760B00000} | Name: Monthly Reporting | Task State: COMPLETE
+30 Jan 2019 10:51:27 main.DeleteMCR-Received Task Details:  ID: {3834DB44-B911-CC86-A022-681760B00002} | Name: EmailNotification | Task State: READY
+30 Jan 2019 10:51:27 main.DeleteMCR-Received Task Details:  ID: {48336F95-4FA9-CF2B-95F9-681760B00002} | Name: Monthly Reporting | Task State: COMPLETE
+30 Jan 2019 10:51:27 main.DeleteMCR-Received Task Details:  ID: {7A614616-1870-CF55-993C-681760B00004} | Name: EmailNotification | Task State: READY
+30 Jan 2019 10:51:27 main.DeleteMCR-Received Task Details:  ID: {5966F982-EF53-C201-8F5E-681760B00004} | Name: Monthly Reporting | Task State: COMPLETE
+30 Jan 2019 10:51:27 main.DeleteMCR-Received Task Details:  ID: {94D4CEFE-D128-C872-B713-685607A00000} | Name: EmailNotification | Task State: READY
+30 Jan 2019 10:51:27 main.DeleteMCR-Received Task Details:  ID: {EECC4C9A-0F45-C5F9-A8BF-685607A00000} | Name: Monthly Reporting | Task State: WORKING
+30 Jan 2019 10:51:27 main.DeleteMCR-Received Task Details:  ID: {66E8C6A5-B67C-C22E-B20A-685607B00000} | Name: EmailNotification | Task State: READY
+30 Jan 2019 10:51:27 main.DeleteMCR-Received Task Details:  ID: {948E95C8-EACA-C498-A525-685607B00000} | Name: Monthly Reporting | Task State: COMPLETE
+30 Jan 2019 10:51:27 main.DeleteMCR-Received Task Details:  ID: {47557FC6-94A4-CDB3-8A3E-685607B00003} | Name: EmailNotification | Task State: COMPLETE
+30 Jan 2019 10:51:27 main.DeleteMCR-Received Task Details:  ID: {B54A934D-D11F-C00C-BC36-685607B00002} | Name: Monthly Reporting | Task State: COMPLETE
+30 Jan 2019 10:51:27 main.DeleteMCR-Total Task in Received taskTable(HashTable): 14
+30 Jan 2019 10:51:27 main.DeleteMCR-Entering WHILE Loop for Deleting
+30 Jan 2019 10:51:30 main.DeleteMCR-WHILE Loop Ends After Deletion
+30 Jan 2019 10:51:30 main.DeleteMCR-#Summary of Actions#
+30 Jan 2019 10:51:30 main.DeleteMCR-Total Cases Received :7
+30 Jan 2019 10:51:30 main.DeleteMCR-Total Task Received: 14
+30 Jan 2019 10:51:30 main.DeleteMCR-Total Task Deleted : 7
+30 Jan 2019 10:51:30 main.DeleteMCR-Total Task Received for Deletion ID: {212A389D-6CE0-C7BA-9C03-681760B00000} Task Name: Monthly Reporting
+30 Jan 2019 10:51:30 main.DeleteMCR-Total Task Received for Deletion ID: {B54A934D-D11F-C00C-BC36-685607B00002} Task Name: Monthly Reporting
+30 Jan 2019 10:51:30 main.DeleteMCR-Total Task Received for Deletion ID: {91706ACD-94E4-C317-A946-681760B00000} Task Name: Monthly Reporting
+30 Jan 2019 10:51:30 main.DeleteMCR-Total Task Received for Deletion ID: {CDB328EB-0086-C054-8DA3-681744D00001} Task Name: EmailNotification
+30 Jan 2019 10:51:30 main.DeleteMCR-Total Task Received for Deletion ID: {7A614616-1870-CF55-993C-681760B00004} Task Name: EmailNotification
+30 Jan 2019 10:51:30 main.DeleteMCR-Total Task Received for Deletion ID: {948E95C8-EACA-C498-A525-685607B00000} Task Name: Monthly Reporting
+30 Jan 2019 10:51:30 main.DeleteMCR-Total Task Received for Deletion ID: {94D4CEFE-D128-C872-B713-685607A00000} Task Name: EmailNotification
+30 Jan 2019 10:51:30 main.DeleteMCR-
+30 Jan 2019 10:51:30 main.DeleteMCR-Deleted Task Details     : {taskID: ={91706ACD-94E4-C317-A946-681760B00000}, taskName: =EmailNotification, taskSTATE: =WORKING}
+30 Jan 2019 10:51:30 main.DeleteMCR-Deleted Task Details     : {taskID: ={EECC4C9A-0F45-C5F9-A8BF-685607A00000}, taskName: =Monthly Reporting, taskSTATE: =COMPLETE}
+30 Jan 2019 10:51:30 main.DeleteMCR-Deleted Task Details     : {taskID: ={CDB328EB-0086-C054-8DA3-681744D00001}, taskName: =EmailNotification, taskSTATE: =WORKING}
+30 Jan 2019 10:51:30 main.DeleteMCR-Deleted Task Details     : {taskID: ={7A614616-1870-CF55-993C-681760B00004}, taskName: =EmailNotification, taskSTATE: =WORKING}
+30 Jan 2019 10:51:30 main.DeleteMCR-Deleted Task Details     : {taskID: ={3834DB44-B911-CC86-A022-681760B00002}, taskName: =EmailNotification, taskSTATE: =WORKING}
+30 Jan 2019 10:51:30 main.DeleteMCR-Deleted Task Details     : {taskID: ={94D4CEFE-D128-C872-B713-685607A00000}, taskName: =EmailNotification, taskSTATE: =WORKING}
+30 Jan 2019 10:51:30 main.DeleteMCR-Deleted Task Details     : {taskID: ={66E8C6A5-B67C-C22E-B20A-685607B00000}, taskName: =EmailNotification, taskSTATE: =WORKING}
+30 Jan 2019 10:51:30 main.DeleteMCR-Tip:-To Delete the Task, Task's Lifecycle should be changed to "PROMOTE". Also,Task's Lifecycle can be changed to "PROMOTE" only if TASKSTATE != COMPLETE.
+30 Jan 2019 10:51:30 main.DeleteMCR-******************Main ENDs****************
+30 Jan 2019 10:51:30 main.DeleteMCR-
+30 Jan 2019 10:52:36 main.DeleteMCR-******************Main STARTs****************
+30 Jan 2019 10:52:36 main.DeleteMCR-Parameters Fetched via config.properties: [DeletionStatus, CE_URI, CM_PASSWORD, CM_USERID, SQLQuery, CM_STANZA, CM_TARGETOS]
+30 Jan 2019 10:52:36 main.DeleteMCR-####### Actual Deletion Mode is DISABLE #######
+30 Jan 2019 10:52:36 filenet_error.api.com.filenet.apiimpl.util.J2EEUtil-The code has NOT detected a need to introduce specific application server logic and is defaulting to using standard J2EE calls
+30 Jan 2019 10:52:37 main.DeleteMCR-Searching Cases in: CMTOS
+30 Jan 2019 10:52:37 main.DeleteMCR-SQL Query: SELECT t.[This],t.[FolderName], t.[LastModifier], t.[DateLastModified], t.[CmAcmCaseTypeFolder], t.[CmAcmCaseState],t.[CmAcmCaseIdentifier], t.[DateCreated], t.[Creator], t.[Id], t.[ContainerType],t.[LockToken], t.[LockTimeout], t.[ClassDescription], t.[DateLastModified], t.[FolderName] FROM [COM_MonthlyComplianceReporting] t where t.[DateCreated] > 2019-01-01 AND t.[DateCreated] < 2019-02-01
+30 Jan 2019 10:52:37 main.DeleteMCR-rowSet.isEmpty(): false
+30 Jan 2019 10:52:37 main.DeleteMCR-Received Task Details:  ID: {9E52F9EF-09A8-CB31-8234-681744D00001} | Name: Monthly Reporting | Task State: COMPLETE
+30 Jan 2019 10:52:37 main.DeleteMCR-Received Task Details:  ID: {212A389D-6CE0-C7BA-9C03-681760B00000} | Name: Monthly Reporting | Task State: COMPLETE
+30 Jan 2019 10:52:37 main.DeleteMCR-Received Task Details:  ID: {48336F95-4FA9-CF2B-95F9-681760B00002} | Name: Monthly Reporting | Task State: COMPLETE
+30 Jan 2019 10:52:37 main.DeleteMCR-Received Task Details:  ID: {5966F982-EF53-C201-8F5E-681760B00004} | Name: Monthly Reporting | Task State: COMPLETE
+30 Jan 2019 10:52:37 main.DeleteMCR-Received Task Details:  ID: {948E95C8-EACA-C498-A525-685607B00000} | Name: Monthly Reporting | Task State: COMPLETE
+30 Jan 2019 10:52:37 main.DeleteMCR-Received Task Details:  ID: {47557FC6-94A4-CDB3-8A3E-685607B00003} | Name: EmailNotification | Task State: COMPLETE
+30 Jan 2019 10:52:37 main.DeleteMCR-Received Task Details:  ID: {B54A934D-D11F-C00C-BC36-685607B00002} | Name: Monthly Reporting | Task State: COMPLETE
+30 Jan 2019 10:52:37 main.DeleteMCR-Total Task in Received taskTable(HashTable): 7
+30 Jan 2019 10:52:37 main.DeleteMCR-Entering WHILE Loop for Deleting
+30 Jan 2019 10:52:38 main.DeleteMCR-WHILE Loop Ends After Deletion
+30 Jan 2019 10:52:38 main.DeleteMCR-#Summary of Actions#
+30 Jan 2019 10:52:38 main.DeleteMCR-Total Cases Received :7
+30 Jan 2019 10:52:38 main.DeleteMCR-Total Task Received: 7
+30 Jan 2019 10:52:38 main.DeleteMCR-Total Task Deleted : 0
+30 Jan 2019 10:52:38 main.DeleteMCR-Total Task Received for Deletion ID: {B54A934D-D11F-C00C-BC36-685607B00002} Task Name: Monthly Reporting
+30 Jan 2019 10:52:38 main.DeleteMCR-Total Task Received for Deletion ID: {212A389D-6CE0-C7BA-9C03-681760B00000} Task Name: EmailNotification
+30 Jan 2019 10:52:38 main.DeleteMCR-Total Task Received for Deletion ID: {9E52F9EF-09A8-CB31-8234-681744D00001} Task Name: Monthly Reporting
+30 Jan 2019 10:52:38 main.DeleteMCR-!!!!! EngineRuntime EXCEPTION MESSAGE: Hashtable Enumerator !!!!!
+30 Jan 2019 10:52:38 main.DeleteMCR-******************Main ENDs****************
+30 Jan 2019 10:52:38 main.DeleteMCR-
